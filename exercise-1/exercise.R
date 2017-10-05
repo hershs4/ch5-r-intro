@@ -22,5 +22,6 @@ my.height <- "5ft 5"
 puppies <- "1 million"
 puppy.price <- 5
 total.cost <- "5 million"
-too.expensive <- TRUE
-max.puppies <- 200
+too.expensive <- total.cost > 1000
+max.puppies <- 1000/puppy.price
+
